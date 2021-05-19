@@ -28,3 +28,80 @@ Formulario em HTML -Beatriz
     </body>
 </html>
 
+CSS Formulario - Beatriz
+#area{
+    position: relative;
+    left: 37%;
+    top: 19%;
+    width: 320px;
+    height: 270px;
+}
+
+#formulario{
+    margin: 50px;
+}
+
+fieldset{
+    width: 300px;
+    display: block;
+      
+}
+
+form{
+    margin: 40px 0;
+    display: inline-block;
+    position: relative;
+}
+form label{
+    display: block;
+    font-size: 15px;
+    margin: 0 0 10px;
+    position: flex;
+    font-family: fantasy;
+}
+
+form legend{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    font-family: fantasy;
+}
+
+.input-enviar{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.enviar{
+    width: 25%;
+    padding: 10px 0;
+    margin: 10px 60px;
+    background: green;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkolivegreen;
+}
+
+.nome{
+    position: relative;
+    margin: 5px 5px 5px 5px;
+}
+
+.email{
+    position: relative;
+    margin: 5px 5px 5px 5px;
+}
+
+
+.numero{
+    position: relative;
+    margin: 5px 5px 5px 5px;
+}
