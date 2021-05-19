@@ -1,1 +1,30 @@
-qasdfghjk
+Formulario em HTML -Beatriz
+
+<DOCTYPE! html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulário</title>
+        <link href="formulario.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="area"> 
+            <fieldset> 
+                <form id="formulario">
+
+                    <legend>Preencha este formulário</legend>
+
+                    <label>Nome<input type="text" required placeholder="Seu nome" class="nome"></label>
+                
+                    <label>Email<input type="email" required placeholder="seuemail@gmail.com" class="email"></label>
+                    
+                    <label>Número de celular<input type="number" required placeholder="(00) 00000-0000" class="numero"></label>
+                        
+                    <input type="submit" value="Enviar" class="enviar">
+                    
+                </form>
+            </fieldset>
+        </div>
+    </body>
+</html>
+
